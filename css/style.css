@@ -20,7 +20,44 @@
 
 /* qeybta textsga */
 
-.text-xl {
+.text-xxl {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        .text-xl {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.875rem;
+            line-height: 1.3;
+        }
+        .text-lg {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+        }
+        .text-md {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+        .text-sm {
+            font-size: 0.875rem;
+            font-weight: 400;
+            margin-bottom: 0.25rem;
+            line-height: 1.4;
+        }
+        .text-xs {
+            font-size: 0.75rem;
+            font-weight: lighter;
+            line-height: 1.3;
+        }
+
+
+/* .text-xl {
     font-size: 2.2rem;
     line-height: 1.2;
     font-weight: 700;
@@ -47,7 +84,7 @@
     font-weight: lighter;
     margin: 10px auto;
 
-}
+} */
 .text-center{
     text-align: center;
 }
