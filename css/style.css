@@ -20,7 +20,7 @@
 
 /* qeybta textsga */
 
-.text-xxl {
+        .text-xxl {
             font-size: 2rem;
             font-weight: 800;
             margin-bottom: 1rem;
@@ -99,16 +99,17 @@
 
 /* common containers ka */
 .container{
-    max-width: 85%;
+    width: 1400px;
+    max-width: 90%;
     height: auto;
     margin: 0 auto;
     padding: 0 15px;
     background-color: var(--background1-color);
 }
 .container .container-md {
-    width: 95%;
+    width: 100%;
     height: auto;
-    margin: 10px 20px;
+    margin: 20px auto;
 }
 .btn{
     display: block;
@@ -146,6 +147,44 @@
     width: 55px;
     height: 55px;
 
+}
+
+
+.container .navbar{
+    max-width: 90%;
+     height: auto;
+    background-color: var(--background2-color);
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+.navbar ul li, a{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    color: var(--text2-color);
+    margin: 30px 0;
+}
+.navbar ul li:hover{
+    color: var(--primary-color);
+    opacity: 0.7;
+    transition: all 0.4s ease-in-out;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.navbar ul li a:hover{
+    color: var(--primary-color);
+    opacity: 0.7;
+    transition: all 0.4s ease-in-out;
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
 
 /* qeybta 1 boxka container-sm */
@@ -225,6 +264,13 @@
     gap: 30px;
     margin-top: 25px;
 }
+.container .Customers .tesla{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
 
 /* qeybta 6 blog-sectionka */
 .blog-section{
@@ -295,7 +341,7 @@
         
     }
     .container .container-md {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin: 10px;
         display: block;
@@ -334,6 +380,7 @@
     border: none;
     border-radius: 2px;
     box-shadow: 0 2px 4px rgb(0,0,0,0.2);
+    margin: 20px auto;
     
 }
 
@@ -375,33 +422,162 @@
 .Customers-card .Customers-icons{
     display: block;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
+
+
 
 /* qeybta 6 blog-sectionka */
 .blog-section{
-    margin: 5px auto;
+    margin: 10px auto;
     
 }
 .blog-section h1{
     display: block;
     text-align: center;
     margin-top: 25px;
-    width: 90%;
+    width: 100%;
 }
 .blog-section p{
     display: block;
     text-align: center;
     margin-bottom: 25px;
-    width: 70%;
+    width: 80%;
 }
 .blog-section .blog-cards{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
+    display: block;
+   
+}
+
+.blog-card img{
+    width: 100%;
+    height: 250px;
+}
+.blog-cards .blog-card .text-card{
+    height: 150px;
+    padding: 20px;
+    width: 70%;
+}
+.text-card .Read-more{
+    display: block;
+
+
+
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text-xl {
+        font-size: 1.4rem;
+        line-height: normal;
+        margin: 10px auto;
+    }
+    .text-lg {
+        font-size: 1.1rem;
+        line-height: normal;
+        margin: 10px auto;
+    }
+    .text-md {
+        font-size: 0.9rem;
+        line-height: normal;
+        margin: 5px auto;
+    }
+    .text-md {
+        font-size: 0.7rem;
+        line-height: normal;
+        margin: 2px auto;
+    }
+
+    .container{
+        width: 70%;
+        
+    }
+    .container .container-md {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        display: block;
+        
+    }
+
+    .All-icons{
+        width: 50px;
+        height: 50px;
+
+    }
+    .container .images{
+        width: 100%;
+        height: auto;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        transition: transform 2s ease-out;
+    }
+    .read-more{
+    padding: 10px 20px;
+}
+
+    /* qeybta 1 boxka container-sm */
+.container-sm{
+    display: inline-block;
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgb(0,0,0,0.2);
+    margin: 20px auto;
     
 }
+
+
+/* qeybta 5 Customers cardka  */
+.container .Customers .tesla{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.container .Customers{
+    display: block;
+    margin: 20px auto;
+}
+
+.Customers .Customers-card{
+    margin: 10px 20px;
+}
+.Customers-card .Customers-icons{
+    display: block;
+    gap: 10px;
+    margin-top: 20px; 
+}
+
+
+
+
+/* qeybta 6 blog-sectionka */
+.blog-section{
+    margin: 10px auto;
+    
+}
+.blog-section h1{
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+}
+.blog-section p{
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    width: 80%;
+}
+.blog-section .blog-cards{
+    display: block;
+   
+}
+
 .blog-card img{
     width: 100%;
     height: 250px;
