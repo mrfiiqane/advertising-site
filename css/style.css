@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 /* Variables & utility-classes */
 
 /* qeybta color */
-:root{
+:root {
     --primary-color: #FB9E3A;
     --secondary-color: #F97A00;
     --background1-color: white;
@@ -19,47 +19,52 @@
 }
 
 /* qeybta textsga */
+.text-xxl {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
 
-        .text-xxl {
-            font-size: 2rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-        .text-xl {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 0.875rem;
-            line-height: 1.3;
-        }
-        .text-lg {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-            line-height: 1.4;
-        }
-        .text-md {
-            font-size: 1rem;
-            font-weight: 400;
-            margin-bottom: 0.5rem;
-            line-height: 1.5;
-        }
-        .text-sm {
-            font-size: 0.875rem;
-            font-weight: 400;
-            margin-bottom: 0.25rem;
-            line-height: 1.4;
-        }
-        .text-xs {
-            font-size: 0.75rem;
-            font-weight: lighter;
-            line-height: 1.3;
-        }
+.text-xl {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.875rem;
+    line-height: 1.3;
+}
 
-.text-center{
+.text-lg {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+.text-md {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+}
+
+.text-xs {
+    font-size: 0.75rem;
+    font-weight: lighter;
+    line-height: 1.3;
+}
+
+.text-center {
     text-align: center;
 }
-.text-unit{
+
+.text-unit {
     width: 50%;
     height: auto;
     line-height: 1.4;
@@ -69,7 +74,7 @@
 
 
 /* common containers ka */
-.container{
+.container {
     width: 1400px;
     max-width: 90%;
     height: auto;
@@ -77,12 +82,14 @@
     padding: 0 15px;
     background-color: var(--background1-color);
 }
+
 .container .container-md {
     width: 100%;
     height: auto;
     margin: 20px auto;
 }
-.btn{
+
+.btn {
     display: block;
     padding: 15px 25px;
     margin: 15px 0;
@@ -93,11 +100,13 @@
     cursor: pointer;
     transition: transform 3s ease-out;
 }
-.btn:hover{
+
+.btn:hover {
     transform: scale(1.1);
     opacity: 0.7;
 }
-.read-more{
+
+.read-more {
     display: inline-block;
     padding: 10px 25px;
     margin: 10px auto;
@@ -108,25 +117,28 @@
     cursor: pointer;
     transition: transform 2s ease-out;
 }
-.read-more:hover{
+
+.read-more:hover {
     transform: scale(1.1);
     opacity: 0.7;
     text-decoration: underline;
 
 }
-.All-icons{
+
+.All-icons {
     width: 55px;
     height: 55px;
 
 }
 
 
-.container .navbar{
+.container .navbar {
     max-width: 90%;
-     height: auto;
+    height: auto;
     background-color: var(--background1-color);
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -134,58 +146,63 @@
     padding: 10px 20px;
     margin: 0 auto;
 }
-.navbar ul li, a{
+
+.navbar ul li,
+a {
     text-decoration: none;
     list-style: none;
     font-weight: 500;
     color: var(--text2-color);
     margin: 30px 0;
 }
-.navbar ul li:hover{
+
+.navbar ul li:hover {
     color: var(--primary-color);
     opacity: 0.7;
     transition: all 0.4s ease-in-out;
     text-decoration: underline;
     cursor: pointer;
-    
+
 }
-.navbar ul li a:hover{
+
+.navbar ul li a:hover {
     color: var(--primary-color);
     opacity: 0.7;
     transition: all 0.4s ease-in-out;
     text-decoration: underline;
     cursor: pointer;
-    
+
 }
 
 /* qeybta 1 boxka container-sm */
-.box{
+.box {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.container-sm{
+
+.container-sm {
     display: inline-block;
     width: 320px;
     height: 250px;
     padding: 20px;
     border: none;
     border-radius: 2px;
-    box-shadow: 0 2px 4px rgb(0,0,0,0.2);
-    
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
+
 }
 
-.container-sm .logo{
+.container-sm .logo {
     text-align: center;
     margin-left: 30%;
-    
+
 
 }
 
 
 /* qeybta 2 text-cardka */
 
-.container .text-card{
+.container .text-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,29 +214,30 @@
 
 
 /* qeybta 3 text-icon */
-.text-icon{
+.text-icon {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 10px auto;
     background-color: var(--background2-color);
 }
-.icons{
+
+.icons {
     padding: 25px;
     display: grid;
     grid-template-columns: 2fr 2fr;
     gap: 30px;
 }
 
-.icons .icon{
+.icons .icon {
     display: flex;
     gap: 30px;
     padding: 10px;
-    
+
 }
 
 /* qeybta 5 Customers cardka  */
-.container .Customers{
+.container .Customers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,15 +245,17 @@
     background-color: var(--background2-color);
 }
 
-.Customers .Customers-card{
+.Customers .Customers-card {
     margin: 10px 20px;
 }
-.Customers-card .Customers-icons{
+
+.Customers-card .Customers-icons {
     display: flex;
     gap: 30px;
     margin-top: 25px;
 }
-.container .Customers .tesla{
+
+.container .Customers .tesla {
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -244,28 +264,32 @@
 
 
 /* qeybta 6 blog-sectionka */
-.blog-section{
+.blog-section {
     margin: 40px auto;
-    
+
 }
-.blog-section .blog-cards{
+
+.blog-section .blog-cards {
     display: flex;
     gap: 10px;
-    
+
 }
-.blog-card img{
+
+.blog-card img {
     width: 100%;
     height: 70%;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgb(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
     display: inline;
     z-index: -9;
 }
-.blog-cards .blog-card{
+
+.blog-cards .blog-card {
     margin: 5px;
-    
+
 }
-.blog-cards .blog-card .text-card{
+
+.blog-cards .blog-card .text-card {
     display: block;
     background-color: var(--background1-color);
     border-radius: 10px;
@@ -278,40 +302,45 @@
     top: -140px;
     width: 75%;
 }
-.text-card .Read-more{
+
+.text-card .Read-more {
     background-color: var(--background1-color);
 }
 
 
-/* qeybta responsiveka */
 
 
-@media (min-width: 768px) {
 
+
+/* qeybta responsive ka  */
+
+
+/*phones  */
+@media (max-width: 768px) {
     .text-xl {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         line-height: normal;
         margin: 10px auto;
     }
     .text-lg {
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: normal;
         margin: 10px auto;
     }
     .text-md {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         line-height: normal;
         margin: 5px auto;
     }
-    .text-md {
-        font-size: 0.5rem;
+    .text-sm {
+        font-size: 0.8em;
         line-height: normal;
         margin: 2px auto;
     }
 
     .container{
         width: 100%;
-        
+        background-color: #F97A00;
     }
     .container .container-md {
         width: 100%;
@@ -341,249 +370,110 @@
         transition: transform 2s ease-out;
     }
     .read-more{
-    padding: 10px 20px;
-}
+        padding: 10px 20px;
+    }
 
-    /* qeybta 1 boxka container-sm */
-.box{
-    display: block;
-    
-}
-.container-sm{
-    display: inline-block;
-    width: 100%;
-    height: 250px;
-    padding: 20px;
-    border: none;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgb(0,0,0,0.2);
-    margin: 20px auto;
-    
-}
+    /*qeybta 1 boxka container-sm */
+    .box {
+        display: block;
 
+    }
 
-/* qeybta 2 text-cardka */
+    .container-sm {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        padding: 20px;
+        border: none;
+        border-radius: 2px;
+        box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
+        margin: 20px auto;
 
-.container .text-card{
-    display: block;
-    margin: 10px auto;
+    }
 
-}
-.container .text-card .image-svg{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    
+    /* qeybta 2 text-cardka */
+    .container .text-card {
+        display: block;
+        margin: 10px auto;
 
-}
+    }
+
+    .container .text-card .image-svg {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
 
 
-/* qeybta 3 text-icon */
-.text-icon{
-    display: block;
-    margin: 10px auto;
-}
-.icons{
-    padding: 10px;
-    
-    gap: 2px;
-}
-
-.icons .icon{
-    gap: 1px;
-    padding: 5px;
-    margin: 2px auto;
-}
-
-/* qeybta 5 Customers cardka  */
-.container .Customers{
-    display: block;
-    margin: 20px auto;
-}
-
-.Customers .Customers-card{
-    margin: 10px 20px;
-}
-.Customers-card .Customers-icons{
-    display: block;
-    gap: 10px;
-    margin-top: 20px; 
-}
-
-
-
-/* qeybta 6 blog-sectionka */
-.blog-section{
-    margin: 10px auto;
-    
-}
-.blog-section h1{
-    display: block;
-    text-align: center;
-    margin-top: 25px;
-    width: 100%;
-}
-.blog-section p{
-    display: block;
-    text-align: center;
-    margin-bottom: 25px;
-    width: 80%;
-}
-.blog-section .blog-cards{
-    display: block;
-   
-}
-
-.blog-card img{
-    width: 100%;
-    height: 250px;
-}
-.blog-cards .blog-card .text-card{
-    height: 150px;
-    padding: 20px;
-    width: 70%;
-}
-.text-card .Read-more{
-    display: block;
-
-
-
-
-}
-}
-/* @media (min-width: 768px) and (max-width: 1024px) {
-    .text-xl {
-        font-size: 1.4rem;
-        line-height: normal;
+    /* qeybta 3 text-icon */
+    .text-icon {
+        display: block;
         margin: 10px auto;
     }
-    .text-lg {
-        font-size: 1.1rem;
-        line-height: normal;
-        margin: 10px auto;
+
+    .icons {
+        padding: 10px;
+        gap: 2px;
     }
-    .text-md {
-        font-size: 0.9rem;
-        line-height: normal;
-        margin: 5px auto;
-    }
-    .text-md {
-        font-size: 0.7rem;
-        line-height: normal;
+    .icons .icon {
+        gap: 1px;
+        padding: 5px;
         margin: 2px auto;
     }
 
-    .container{
-        width: 70%;
-        
-    }
-    .container .container-md {
-        width: 100%;
-        height: auto;
-        margin: 10px;
+    /* qeybta 5 Customers cardka  */
+    .container .Customers {
         display: block;
-        
+        margin: 20px auto;
     }
 
-    .All-icons{
-        width: 50px;
-        height: 50px;
-
+    .Customers .Customers-card {
+        margin: 10px 20px;
     }
-    .container .images{
+
+    .Customers-card .Customers-icons {
+        display: block;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+     /* qeybta 6 blog-sectionka */
+    .blog-section {
+        margin: 10px auto;
+    }
+
+    .blog-section h1 {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
         width: 100%;
-        height: auto;
     }
 
-    .btn{
-        padding: 10px 20px;
-        transition: transform 2s ease-out;
+    .blog-section p {
+        display: block;
+        text-align: center;
+        margin-bottom: 25px;
+        width: 80%;
     }
-    .read-more{
-    padding: 10px 20px;
-}
 
-    /* qeybta 1 boxka container-sm */
-.container-sm{
-    display: inline-block;
-    width: 90%;
-    height: 200px;
-    padding: 20px;
-    border: none;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgb(0,0,0,0.2);
-    margin: 20px auto;
-    
-}
+    .blog-section .blog-cards {
+        display: block;
 
-.container .text-card .image-svg{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    
+    }
+
+    .blog-card img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .blog-cards .blog-card .text-card {
+        height: 150px;
+        padding: 20px;
+        width: 70%;
+    }
+
+    .text-card .Read-more {
+        display: block;
+    }
 
 }
-
-
-/* qeybta 5 Customers cardka  */
-.container .Customers .tesla{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-.container .Customers{
-    display: block;
-    margin: 20px auto;
-}
-
-.Customers .Customers-card{
-    margin: 10px 20px;
-}
-.Customers-card .Customers-icons{
-    display: block;
-    gap: 10px;
-    margin-top: 20px; 
-}
-
-
-
-
-/* qeybta 6 blog-sectionka */
-.blog-section{
-    margin: 10px auto;
-    
-}
-.blog-section h1{
-    display: block;
-    text-align: center;
-    margin-top: 25px;
-    width: 100%;
-}
-.blog-section p{
-    display: block;
-    text-align: center;
-    margin-bottom: 25px;
-    width: 80%;
-}
-.blog-section .blog-cards{
-    display: block;
-   
-}
-
-.blog-card img{
-    width: 100%;
-    height: 250px;
-}
-.blog-cards .blog-card .text-card{
-    height: 150px;
-    padding: 20px;
-    width: 70%;
-}
-.text-card .Read-more{
-    display: block;
-
-
-
-
-}
-} */
