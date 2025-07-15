@@ -27,6 +27,12 @@
             justify-content: center;
             align-items: center;
         }
+        .box-shadow{
+            background-color: #e0e5ec;
+            border-radius: 20px;
+            box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+        }
+        
         h2{
             color: blueviolet;
             margin: 20px auto;
@@ -43,13 +49,16 @@
             max-width : 80%;
             margin: 20px auto;
             
+            
         }
         .name, .password, .email, .Submit{
             padding: 15px;
-            background-color: lightcyan;
+            background-color: #e0e5ec;
             font-family: 'Gill Sans', sans-serif;
             font-size: 20px;
+            margin-bottom: 10px;
             border: none;
+            color: #333;
         }
         .name{
             flex: 1 0 140px;
@@ -77,6 +86,7 @@
         }
         .Submit:hover{
             border: 2px solid #a437cf;
+            cursor: pointer;
             
         }
         @media (max-width: 480px) {
@@ -172,14 +182,14 @@
     </style>
 </head>
 <body>
-    <div class="contact-card">
+    <div class="contact-card  box-shadow">
         <h2>Contact Us</h2>
         <p>We would love to hear from you! Please fill out the form below <br> and we will get back to you as soon as possible.</p>
         <div class="flex-container">
-            <input type="text" class="name" placeholder="Username">
-            <input type="email" class="email" placeholder="Email">
-            <input type="password" class="password" placeholder="Password">
-            <button class="Submit">Submit</button>
+            <input type="text" class="name  box-shadow" placeholder="Username">
+            <input type="email" class="email  box-shadow" placeholder="Email">
+            <input type="password" class="password  box-shadow" placeholder="Password">
+            <button class="Submit  box-shadow">Submit</button>
         </div>
     </div>
     
